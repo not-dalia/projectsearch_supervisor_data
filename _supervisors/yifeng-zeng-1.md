@@ -5,6 +5,8 @@ available: true
 email: yifeng.zeng@northumbria.ac.uk
 website: https://www.northumbria.ac.uk/about-us/our-staff/z/yifeng-zeng/
 office_hours: "I am general fine with 11:00am-11:30am on Tuesday/Wednesday. "
+module:
+  - KV6003
 research_group: Computer Vision and Natural Computing
 research_themes:
   - Artificial Intelligence

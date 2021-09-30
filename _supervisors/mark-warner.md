@@ -6,6 +6,8 @@ email: mark.warner@northumbria.ac.uk
 office_hours: |-
   Monday 10am - 11am
   Tuesday 1pm - 2pm 
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Data Privacy

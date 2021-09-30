@@ -10,6 +10,8 @@ office_hours: |-
   Friday 15:00-16:00
 
   You can also contact me through email or MS Teams any time.
+module:
+  - KV6003
 research_group: Computer Vision and Natural Computing
 research_themes:
   - Digital Health and Wellbeing

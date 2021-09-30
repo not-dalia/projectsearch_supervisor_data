@@ -6,6 +6,8 @@ email: dirk.vanderlinden@northumbria.ac.uk
 website: www.profdirk.com
 office_hours: To be confirmed; for KV6003 please contact me via MS Teams to
   discuss project ideas
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Human-Computer Interaction

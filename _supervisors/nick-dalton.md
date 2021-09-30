@@ -7,6 +7,8 @@ website: http://www.thepurehands.org/sheep/index.html
 office_hours: |-
   To book time with me. 
   https://calendly.com/nick-dalton/
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Mobile Computing

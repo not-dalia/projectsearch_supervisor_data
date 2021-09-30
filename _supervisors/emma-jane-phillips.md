@@ -5,6 +5,8 @@ available: true
 email: emma-jane.phillips@northumbria.ac.uk
 office_hours: teams meetings preferred Monday 10-12 by request.  Alternatively
   email for alternative arrangements.
+module:
+  - KV6003
 research_group: Intelligent Systems Research Group
 research_themes:
   - Database

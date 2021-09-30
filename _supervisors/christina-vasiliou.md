@@ -4,6 +4,8 @@ title: Christina Vasiliou
 available: true
 email: christina.vasiliou@northumbria.ac.uk
 office_hours: Thursday 15.00-16.00 (TBC)
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Information Science

@@ -7,6 +7,8 @@ office_hours: |-
   Via Teams preferably.
   Monday 11-12
   Thursday 11-12
+module:
+  - KV6003
 research_group: Digital Learning Laboratory
 research_themes:
   - Web Design and Development

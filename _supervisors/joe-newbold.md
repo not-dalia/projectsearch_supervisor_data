@@ -7,6 +7,8 @@ website: https://jwnewbold.com/
 office_hours: |-
   Monday: 11-12 (online)
   Thursday 2pm-3pm (on campus)
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Human-Computer Interaction

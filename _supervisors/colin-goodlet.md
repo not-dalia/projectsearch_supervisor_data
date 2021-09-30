@@ -4,6 +4,8 @@ title: Colin Goodlet
 available: true
 email: colin.goodlet@northumbria.ac.uk
 office_hours: Wednesday 11:00-14:00 and Thursday 11:00-14:00
+module:
+  - KV6003
 research_group: Intelligent Systems Research Group
 research_themes:
   - Computer Audio

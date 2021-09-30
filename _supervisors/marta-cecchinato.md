@@ -5,6 +5,8 @@ available: true
 email: marta.cecchinato@northumbria.ac.uk
 website: http://www.cecchinato.me/
 office_hours: "Please email me to arrange a time to meet. "
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Human-Computer Interaction

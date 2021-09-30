@@ -6,6 +6,8 @@ email: david2.hastings@northumbria.ac.uk
 office_hours: |-
   Monday 10:00 - 12:00
   Thursday 14:00 - 15:30
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Information Science

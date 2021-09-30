@@ -11,6 +11,8 @@ office_hours: >-
 
 
   Please book an appointment by contacting me via email. We can meet either in person (on campus) or online via Teams/BB Collaborate.
+module:
+  - KV6003
 research_group: Digital Learning Laboratory
 research_themes:
   - Human-Computer Interaction

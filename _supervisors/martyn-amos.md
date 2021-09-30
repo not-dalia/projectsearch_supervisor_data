@@ -17,6 +17,8 @@ office_hours: >
 
 
   I am also happy to meet via Teams/Zoom, if necessary or preferred.
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Artificial Intelligence

@@ -6,6 +6,8 @@ email: mark.sinclair@northumbria.ac.uk
 website: https://www.markcsinclair.co.uk/
 office_hours: Thursday 2-3pm and Friday 2-3pm during term time; please email me
   for a Teams appt
+module:
+  - KV6003
 research_group: Intelligent Systems Research Group
 research_themes:
   - Computer Networks

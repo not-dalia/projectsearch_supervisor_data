@@ -5,6 +5,8 @@ available: true
 email: biju.issac@northumbria.ac.uk
 website: https://www.bijuissac.com/ug-pg-projects
 office_hours: Friday PM (for project sessions)
+module:
+  - KV6003
 research_group: Cyber Security and Network Systems
 research_themes:
   - Cyber Security

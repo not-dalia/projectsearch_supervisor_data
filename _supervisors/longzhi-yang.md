@@ -7,6 +7,8 @@ website: https://lyang.uk
 office_hours: |-
   14:00-15:00 on Tuesday
   12:00-13:00 on Thursday
+module:
+  - KV6003
 research_group: Computer Vision and Natural Computing
 research_themes:
   - Artificial Intelligence

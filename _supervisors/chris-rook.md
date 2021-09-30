@@ -6,6 +6,8 @@ email: c.rook@northumbria.ac.uk
 website: https://www.northumbria.ac.uk/about-us/our-staff/r/chris-rook/
 office_hours: Tuesday-Fridays in Ellison B119, or contact me by email to arrange
   an appointment.
+module:
+  - KV6003
 research_group: Computer Vision and Natural Computing
 research_themes:
   - Game Design and Development

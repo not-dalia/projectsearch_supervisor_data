@@ -5,6 +5,8 @@ available: true
 email: Andrew.turnbull@northumbria.ac.uk
 website: https://www.northumbria.ac.uk/about-us/our-staff/t/andrew-turnbull/
 office_hours: email me to arrange
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Information Science

@@ -9,6 +9,8 @@ office_hours: |-
   Thursdays - 13:00 - 14.30 
 
   Ellison B114, or contact me by email to arrange an appointment.
+module:
+  - KV6003
 research_group: Cyber Security and Network Systems
 research_themes:
   - Computer Networks

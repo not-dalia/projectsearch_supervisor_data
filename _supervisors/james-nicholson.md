@@ -4,6 +4,8 @@ title: James Nicholson
 available: true
 email: james.nicholson@northumbria.ac.uk
 website: https://jjnc.xyz
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Digital Forensics

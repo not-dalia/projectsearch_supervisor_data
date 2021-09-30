@@ -6,6 +6,8 @@ email: jeremy.ellman@northumbria.ac.uk
 website: http://unn-izje1.newnumyspace.co.uk/dv6/drupal-7.58/
 office_hours: Not fixed until the timetables are stable. But email anytime and
   put 'KV6003 Project' in the subject.
+module:
+  - KV6003
 research_group: Intelligent Systems Research Group
 research_themes:
   - Artificial Intelligence

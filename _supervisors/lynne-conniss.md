@@ -4,6 +4,8 @@ title: Lynne Conniss
 available: true
 email: lynne.conniss@northumbria.ac.uk
 office_hours: "To be confirmed - please email for an appointment in the meantime. "
+module:
+  - KV6003
 research_group: Northumbria Social Computing
 research_themes:
   - Human-Computer Interaction

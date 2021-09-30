@@ -5,6 +5,8 @@ available: true
 email: shanfeng2.hu@northumbria.ac.uk
 website: https://shanfenghu.github.io/
 office_hours: Every Thursday, 16:30 - 17:30
+module:
+  - KV6003
 research_group: Computer Vision and Natural Computing
 research_themes:
   - Deep Learning

@@ -9,6 +9,8 @@ office_hours: |
   CIS 308
   Monday   15:15-16:15
   Thursday 13:15-14:15
+module:
+  - KV6003
 research_group: Digital Health and Wellbeing
 research_themes:
   - Artificial Intelligence

@@ -10,6 +10,8 @@ office_hours: >-
 
 
   Please book an appointment by contacting me via email. We can meet online via Teams.
+module:
+  - KV6003
 research_group: Intelligent Systems Research Group
 research_themes:
   - Operating Systems

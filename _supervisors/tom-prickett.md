@@ -10,6 +10,8 @@ office_hours: >-
 
 
   Please note I work part time for Northumbria Monday-Thursday.
+module:
+  - KV6003
 research_group: Digital Learning Laboratory
 research_themes:
   - Web Design and Development
