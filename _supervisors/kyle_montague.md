@@ -119,3 +119,4 @@ additional_details: >-
 
   Bots: How do bots work inside VR? What special affordances or opportunities in VR can we make use of? What don’t we want to see brought over e.g., customer bots?
 ---
+
