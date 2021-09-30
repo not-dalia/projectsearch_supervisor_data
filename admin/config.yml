@@ -1,0 +1,111 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+# publish_mode: editorial_workflow
+collections:
+  - name: 'supervisors'
+    label: 'Supervisors'
+    folder: '_supervisors/'
+    preview_path: supervisors/{{slug}}
+    slug: '{{slug}}'
+    identifier_field: slug
+    search: true
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'supervisor' }
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - label: Availabile for supervision
+        name: available
+        widget: boolean
+        default: true
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Office Hours", name: "office_hours", widget: "text", required: true}
+      - label: "Research Group"
+        name: "research_group"
+        widget: "select"
+        options: 
+          - Computer Vision and Natural Computing
+          - Cyber Security and Network Systems
+          - Digital Health and Wellbeing
+          - Digital Learning Laboratory
+          - Intelligent Systems Research Group
+          - Northumbria Social Computing
+      - label: "Project Themes"
+        name: "research_themes"
+        widget: "relation"
+        collection: form_data
+        search_fields: ['research_themes.*']
+        value_field: "research_themes.*"
+        file: "research_themes"
+        display_fields: ["research_themes.*"]
+        multiple: true
+        min: 1
+        optionsLength: 1000
+      - label: "Additional Keywords"
+        name: "additional_keywords"
+        widget: "relation"
+        collection: form_data
+        search_fields: ['additional_keywords.*']
+        value_field: "additional_keywords.*"
+        file: "additional_keywords"
+        display_fields: ["additional_keywords.*"]
+        multiple: true
+        min: 1
+        optionsLength: 1000
+      - label: "Technologies & Techniques"
+        name: "technologies_languages"
+        widget: "relation"
+        collection: form_data
+        search_fields: ['technologies_languages.*']
+        value_field: "technologies_languages.*"
+        file: "technologies_languages"
+        display_fields: ["technologies_languages.*"]
+        multiple: true
+        min: 1
+        optionsLength: 1000
+      - {label: "Additional Details", name: "additional_details", widget: "markdown", required: false, editor_components: []}
+
+  - name: 'form_data'
+    label: 'Form Data'
+    editor:
+      preview: false
+    files:
+      - label: 'Project Themes'
+        name: 'research_themes'
+        file: '_data/research_themes.yml'
+        fields:
+          - label: 'Project Themes'
+            name: 'research_themes'
+            widget: 'hidden'
+            allow_add: true
+            collapsed: false
+            field: {label: Theme, name: name, widget: string}
+            add_to_top: true
+      - label: 'Additional Keywords'
+        name: 'additional_keywords'
+        file: '_data/additional_keywords.yml'
+        fields:
+          - label: 'Additional Keywords'
+            name: 'additional_keywords'
+            widget: 'hidden'
+            allow_add: true
+            collapsed: false
+            field: {label: Keyword, name: name, widget: string}
+            add_to_top: true
+      - label: 'Technologies & Techniques'
+        name: 'technologies_languages'
+        file: '_data/technologies_languages.yml'
+        fields:
+          - label: 'Technologies & Techniques'
+            name: 'technologies_languages'
+            widget: 'hidden'
+            allow_add: true
+            collapsed: false
+            field: {label: Technology, name: name, widget: string}
+            add_to_top: true
+      
+
