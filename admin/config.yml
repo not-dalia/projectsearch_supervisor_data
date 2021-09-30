@@ -24,6 +24,12 @@ collections:
       - {label: "Email", name: "email", widget: "string"}
       - {label: "Website", name: "website", widget: "string", required: false}
       - {label: "Office Hours", name: "office_hours", widget: "text", required: true}
+      - label: "Modules"
+        name: "modules"
+        widget: "select"
+        multiple: true
+        options: ["KV6003", "Other"]
+        default: ["KV6003"]
       - label: "Research Group"
         name: "research_group"
         widget: "select"
