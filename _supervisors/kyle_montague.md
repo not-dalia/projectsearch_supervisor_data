@@ -14,6 +14,7 @@ office_hours: >
   29/09/2021 - 9:00 – 11:00 
 module:
   - KV6003
+  - Other
 research_group: Northumbria Social Computing
 research_themes:
   - Human-Computer Interaction
