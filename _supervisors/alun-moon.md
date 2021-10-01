@@ -6,6 +6,7 @@ email: alun.moon@northumbria.ac.uk
 office_hours: Generally between 10 and 3:30
 module:
   - KV6003
+  - Other
 research_group: Intelligent Systems Research Group
 research_themes:
   - Animation
