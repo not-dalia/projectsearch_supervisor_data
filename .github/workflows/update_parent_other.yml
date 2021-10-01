@@ -15,10 +15,10 @@ jobs:
           repository: not-dalia/projectsearch_website_other
           token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
 
-      - name: Pull & update submodules recursively
+      - name: Pull & update submodule
         run: |
           git submodule update --init --recursive
-          git submodule update --recursive --remote
+          git submodule update --remote --merge --recursive
       - name: Commit
         run: |
           git config user.email "actions@github.com"
